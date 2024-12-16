@@ -1,0 +1,43 @@
+//////// Game Values \\\\\\\\
+
+Starting Score:
+0 0
+
+Score Increment:
+1
+
+Play to:
+5
+
+Default Starting Speed:
+1
+
+Difficulty Increment:
+2
+
+Max Difficulty:
+5
+
+Max Speed:
+7
+
+Paddle Radius:
+200
+
+Ball Amount:
+1
+
+Add Speed Increment:
+1
+
+Time Game Difficulty Increments(seconds):
+10
+
+Paddle Sound File:
+minetrap\LADDER.WAV
+
+Game Over Sound File:
+minetrap\FANFARE.WAV
+
+Score Sound File:
+minetrap\BLIP.WAV

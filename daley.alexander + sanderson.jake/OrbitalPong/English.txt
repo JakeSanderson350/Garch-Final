@@ -1,0 +1,22 @@
+PLAY
+Play
+SETTINGS
+Settings
+QUIT
+Quit
+SAVE
+Save
+LANGUAGE
+English
+DIFFICULTY
+Start Speed 
+LOAD
+Load
+SCORE
+Score
+WELCOME
+Welcome to Orbital Pong!
+P1SCORE
+Player 1 Scores!
+P2SCORE
+Player 2 Scores!

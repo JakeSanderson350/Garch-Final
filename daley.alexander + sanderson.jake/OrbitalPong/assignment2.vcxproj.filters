@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game Events">
+      <UniqueIdentifier>{3bd0cfaa-86fe-41cd-9846-cfe2be098221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Events">
+      <UniqueIdentifier>{7d40893c-f444-4f32-84e8-aea6fe757990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu Classes">
+      <UniqueIdentifier>{9ea21b24-95b9-4031-bb18-1c3d32e3d771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu Classes">
+      <UniqueIdentifier>{eb759ee5-035d-4b0b-b448-ff738b430707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle Classes">
+      <UniqueIdentifier>{ef548c41-541e-46b3-ba43-6f5baefcda26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particle Classes">
+      <UniqueIdentifier>{84a89df9-91db-4b22-a8aa-960f9c1846e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeUnitCurrentAnimationEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeUnitAnimationSpeedEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveUnitEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnUnitEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTranslator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySoundEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="MovePaddle.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitOffscreenEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="StopPaddle.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EmitParticleEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeDifficultyEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseClick.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Particle Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\Particle Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Menu Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Menu Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Source Files\Menu Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreEvent.cpp">
+      <Filter>Source Files\Game Events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeUnitCurrentAnimationEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeUnitAnimationSpeedEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveUnitEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnUnitEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitOffscreenEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySoundEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MovePaddle.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="StopPaddle.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EmitParticleEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeDifficultyEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseClick.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files\Particle Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Particle Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Menu Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Header Files\Menu Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Menu Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreEvent.h">
+      <Filter>Header Files\Game Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="GameValues.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="GameSave.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="English.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Spanish.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Italian.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

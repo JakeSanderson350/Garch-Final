@@ -1,0 +1,22 @@
+PLAY
+Jugar
+SETTINGS
+Ajustes
+QUIT
+Abandonar
+SAVE
+Ahorrar
+LANGUAGE
+Espanol
+DIFFICULTY
+Velocidad de inicio 
+LOAD
+Carga
+SCORE
+Puntaje
+WELCOME
+Bienvenida a Orbital Pong!
+P1SCORE
+El jugadora 1 anota!
+P2SCORE
+El jugadora 2 anota!

@@ -1,0 +1,22 @@
+PLAY
+Giocare
+SETTINGS
+Impostazioni
+QUIT
+Esentato
+SAVE
+Salva
+LANGUAGE
+Italiano
+DIFFICULTY
+Velocita iniziale 
+LOAD
+Carico
+SCORE
+Punto
+WELCOME
+Benvenuto a Orbital Pong!
+P1SCORE
+Il giocatore 1 segna!
+P2SCORE
+Il giocatore 2 segna!

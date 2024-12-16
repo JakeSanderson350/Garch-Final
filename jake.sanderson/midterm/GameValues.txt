@@ -1,0 +1,42 @@
+//////// Game Values \\\\\\\\
+Orb Low Speed:
+20
+
+Orb High Speed:
+40
+
+Orb Starting Added Speed:
+0
+
+Orb Add Speed Increment:
+2
+
+Orb Starting Spawn Chance:
+2
+
+Orb Spawn Chance Increment:
+2
+
+Starting Score:
+10
+
+Score Increment:
+2
+
+Score Decrement:
+-5
+
+Time Game Difficulty Increments(ms):
+10000
+
+Blue Orb Sound File:
+minetrap\PADDLE.WAV
+
+Red Orb Sound File:
+minetrap\EXP-L.WAV
+
+Game Over Sound File:
+minetrap\DBSPLAT.WAV
+
+Orb Switch Sound File:
+minetrap\BLIP.WAV
