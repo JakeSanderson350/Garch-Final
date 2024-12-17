@@ -166,7 +166,7 @@ bool Game::init(unsigned int width, unsigned int height)
 		return false;
 	}
 
-	const std::string FONT_PATH = "..\\..\\shared\\assets\\cour.ttf";
+	const std::string FONT_PATH = "..\\..\\shared\\assets\\JumpersCondensed-mLzyv.ttf";
 	if (!mpHUD->init(FONT_PATH, 36))
 	{
 		std::cout << "HUD failed to initialize" << std::endl;
@@ -733,12 +733,16 @@ void Game::populateGraphicsBufferManager()
 {
 	//Strings of file names of background and sprites
 	const std::string BALLS_FILENAME = "glowing-balls.png";
+	const std::string BG_FILENAME = "StarsBackground.jpg";
+
+	//Add background
+	mpGraphicsBufferManager->createAndManageBuffer("backgroundBuffer", ASSET_PATH + BG_FILENAME);
 
 	//Add balls spritesheet
 	mpGraphicsBufferManager->createAndManageBuffer("ballsBuffer", ASSET_PATH + BALLS_FILENAME);
 
 	//Paddle buffer
-	mpGraphicsBufferManager->createAndManageBuffer("wallBuffer", 800, 600, Color(200, 200, 200));
+	mpGraphicsBufferManager->createAndManageBuffer("wallBuffer", 800, 600, Color(0, 0, 0));
 
 	mpGraphicsBufferManager->createAndManageBuffer("paddle1Buffer", 800, 600, Color(0, 0, 255));
 	mpGraphicsBufferManager->createAndManageBuffer("paddle2Buffer", 800, 600, Color(255, 0, 0));
@@ -748,7 +752,8 @@ void Game::populateGraphicsBufferManager()
 	mpGraphicsBufferManager->createAndManageBuffer("p2GoalBuffer", 200, 200, Color(0, 0, 200));
 
 	//Make sprite for particle system and init it
-	Sprite* particleSprite = new Sprite(mpGraphicsBufferManager->getBuffer("wallBuffer"), Vector2D(0, 0), 5, 5);
+	mpGraphicsBufferManager->createAndManageBuffer("particleBuffer", 10, 10, Color(200, 200, 200));
+	Sprite* particleSprite = new Sprite(mpGraphicsBufferManager->getBuffer("particleBuffer"), Vector2D(0, 0), 5, 5);
 	mpParticleSystem->init(particleSprite);
 	delete particleSprite;
 }
@@ -884,6 +889,7 @@ void Game::renderGame()
 
 	//Background
 	mpGraphicsSystem->getBackBuffer()->setToColor(Color(0.0f, 0.0f, 0.0f));
+	mpGraphicsSystem->getBackBuffer()->draw(Vector2D(0.0f, 0.0f), *mpGraphicsBufferManager->getBuffer("backgroundBuffer"), 0.0f, 2.0f);
 
 	//mpMenuManager->renderMenu(mpGraphicsSystem->getBackBuffer(), mScreenDimensions, mpUnitManager, mpHUD, mpGameFont, mpParticleSystem);
 
